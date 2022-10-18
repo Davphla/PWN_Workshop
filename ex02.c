@@ -10,11 +10,12 @@
  * I hope at least...
  * ~~~~~~~~~~~~~~~~
  * Useful resources :
- *
+ * https://dhavalkapil.com/blogs/Buffer-Overflow-Exploit/
  */
 void super_secret_function(void)
 {
-    puts("\nSuper Secret Function\n");
+    // DON'T EVER START THIS FUNCTION, I WARN YOU
+    puts("\n~~== Super Secret Function ==~~\n");
     system("/bin/sh");
 }
 
@@ -23,5 +24,6 @@ int main() {
 
     scanf("%s", &s);
     puts("How surprising...");
+    puts("You don't know my real secret eh eh...");
     return 0;
 }

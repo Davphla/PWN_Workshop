@@ -12,17 +12,19 @@
  * Hope it wont break anything...
  * ~~~~~~~~~~~~~~~~
  * Useful resources :
- *
+ * https://0xrick.github.io/binary-exploitation/bof1/
  */
 int main() {
     char s[64];
     char cmd[64] = "ls -l";
 
+    puts("Hello ! Welcome to my world!");
+    puts("Input your name, and I'll print you my favorite command !!");
     scanf("%s", &s);
+    printf("Your name is : \"%s\"\n", s);
     if (strcmp(cmd, "ls -l") != 0) {
-        puts("You're getting closer...");
+        puts("You've changed my command !! How dare you !");
     }
-    printf("You wrote : \"%s\"\n", s);
     system(cmd);
     return 0;
 }
