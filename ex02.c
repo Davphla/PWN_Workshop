@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
+
 
 /**
  * ~~~~~~~~~~~~~~~~
@@ -16,8 +18,8 @@ void super_secret_function(void)
 {
     // DON'T EVER START THIS FUNCTION, I WARN YOU
     puts("\n~~== Super Secret Function ==~~\n");
-    puts("\nGreat job ! You can cat the file now !\n");
-    system("/bin/sh");
+    puts("Great job ! You can cat the file now !\n");
+    puts("flags");
 }
 
 int main() {
