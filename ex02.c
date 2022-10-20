@@ -16,6 +16,7 @@ void super_secret_function(void)
 {
     // DON'T EVER START THIS FUNCTION, I WARN YOU
     puts("\n~~== Super Secret Function ==~~\n");
+    puts("\nGreat job ! You can cat the file now !\n");
     system("/bin/sh");
 }
 
