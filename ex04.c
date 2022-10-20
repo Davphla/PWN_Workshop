@@ -13,7 +13,7 @@
  * https://dhavalkapil.com/blogs/Shellcode-Injection/
  */
 int main() {
-    char s[6];
+    char s[120];
 
     scanf("%s", &s);
     puts("I'm just a simple Main, Giorgio Main, and I've asked you to let me alone, alright ?");

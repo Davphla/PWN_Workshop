@@ -14,7 +14,7 @@
  * https://dhavalkapil.com/blogs/Shellcode-Injection/
  */
 int main() {
-    char s[6] = {0};
+    char s[120] = {0};
 
     scanf("%s", &s);
     puts(s);
